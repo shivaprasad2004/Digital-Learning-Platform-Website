@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireLearn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #ff6347;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4682b4;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #5f9ea0;
+        }
+        section.hero {
+            background-color: rgba(255, 140, 0, 0.8);
+            padding: 40px 20px;
+            text-align: center;
+            background-image: url('images/learning.jpg'); /* Example background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        section.hero h2 {
+            color: white;
+        }
+        section.hero p {
+            color: #f1f1f1;
+        }
+        section.hero button {
+            background-color: #32cd32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        section.hero button:hover {
+            background-color: #2e8b57;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 1000px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h2 {
+            color: #ff6347;
+        }
+        h3 {
+            color: #4682b4;
+        }
+        a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .course img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .course div {
+            padding-left: 20px;
+        }
+        article {
+            background-color: #fafad2;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>InspireLearn</h1>
+        <p>Empowering Minds, One Lesson at a Time</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="catalog.html">Courses</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to InspireLearn</h2>
+        <p>Your gateway to quality education and lifelong learning.</p>
+        <a href="catalog.html">
+            <button>Get Started</button>
+        </a>
+    </section>
+
+    <!-- Main Content Section -->
+    <section>
+        <h2>Featured Courses</h2>
+        <article class="course" style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="Python Course" style="width: 100px; height: auto;">
+            <div>
+                <h3>Introduction to Python</h3>
+                <p>Learn the basics of Python programming with our beginner-friendly course. <a href="catalog.html">Read more</a></p>
+            </div>
+        </article>
+        <article class="course" style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="https://c8.alamy.com/comp/2H2YHHP/dbms-text-written-on-circuit-board-electronic-abstract-technology-background-of-software-developer-and-computer-script-dbms-concept-of-integrated-cir-2H2YHHP.jpg" alt="DBMS Course" style="width: 100px; height: auto;">
+            <div>
+                <h3>Database Management Systems</h3>
+                <p>Understand the fundamentals of DBMS and its applications. <a href="catalog.html">Read more</a></p>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <h2>Latest Articles</h2>
+        <article>
+            <h3>The Future of Online Learning</h3>
+            <p>Explore the trends shaping the future of online education. <a href="#">Read more</a></p>
+        </article>
+        <article>
+            <h3>Top 10 Programming Languages to Learn in 2024</h3>
+            <p>Discover the most in-demand programming languages for this year. <a href="#">Read more</a></p>
+        </article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 InspireLearn. All rights reserved.</p>
+        <p>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Privacy Policy</a>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Terms of Service</a>
+        </p>
+    </footer>
+
+</body>
+</html>

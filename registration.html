@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireLearn - Registration</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <!-- Header Section -->
+    <header style="background-color: #4CAF50; padding: 20px; text-align: center; color: white;">
+        <h1>InspireLearn</h1>
+        <p>Empowering Minds, One Lesson at a Time</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav style="display: flex; justify-content: center; background-color: #333;">
+        <a href="index.html" style="color: white; padding: 14px 20px; text-decoration: none;">Home</a>
+        <a href="catalog.html" style="color: white; padding: 14px 20px; text-decoration: none;">Courses</a>
+        <a href="#" style="color: white; padding: 14px 20px; text-decoration: none;">About</a>
+        <a href="#" style="color: white; padding: 14px 20px; text-decoration: none;">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main style="padding: 20px;">
+        <h2 style="color: #333;">Student Registration</h2>
+        <p>Please fill out the form below to register for your selected course.</p>
+
+        <form action="#" method="post" style="max-width: 600px; margin: auto;">
+            <label for="firstName" style="display: block; margin: 10px 0;">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="lastName" style="display: block; margin: 10px 0;">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="email" style="display: block; margin: 10px 0;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="phone" style="display: block; margin: 10px 0;">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="course" style="display: block; margin: 10px 0;">Select Course:</label>
+            <select id="course" name="course" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+                <option value="intro-python">Introduction to Python - Rs5000 - 4 weeks</option>
+                <option value="advanced-python">Advanced Python Programming - Rs10000 - 6 weeks</option>
+                <option value="dbms">Database Management Systems - Rs7500 - 5 weeks</option>
+                <!-- Add more courses as needed -->
+            </select>
+
+            <label for="address" style="display: block; margin: 10px 0;">Address:</label>
+            <input type="text" id="address" name="address" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="city" style="display: block; margin: 10px 0;">City:</label>
+            <input type="text" id="city" name="city" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="state" style="display: block; margin: 10px 0;">State/Province:</label>
+            <input type="text" id="state" name="state" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <label for="zip" style="display: block; margin: 10px 0;">Zip/Postal Code:</label>
+            <input type="text" id="zip" name="zip" required style="width: 100%; padding: 8px; margin: 4px 0; box-sizing: border-box;">
+
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-top: 20px;">Register</button>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0;">
+        <p>&copy; 2024 InspireLearn. All rights reserved.</p>
+        <p>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Privacy Policy</a>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Terms of Service</a>
+        </p>
+    </footer>
+
+</body>
+</html>
